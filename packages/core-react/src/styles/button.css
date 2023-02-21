@@ -1,0 +1,86 @@
+
+/* color  button */
+.button-1st-default {
+  @apply !bg-primary-6 !text-white hover:!bg-primary-7;
+}
+.button-1st-disable {
+  @apply !bg-primary-4 !text-white;
+}
+.button-1st-loading {
+  @apply !bg-primary-4 !text-white;
+}
+
+.button-2nd-default {
+  @apply !bg-primary-1 !text-primary-6 hover:!text-primary-7;
+}
+.button-2nd-disable {
+  @apply  !bg-primary-1 !text-primary-4;
+}
+.button-2nd-loading {
+  @apply  !bg-primary-1 !text-primary-4;
+}
+
+
+.button-1st_danger-default {
+  @apply !bg-red-6 !text-white hover:!bg-red-7
+}
+.button-1st_danger-disable {
+  @apply !bg-red-3 !text-white
+}
+.button-1st_danger-loading {
+  @apply !bg-red-3 !text-white
+}
+
+.button-2nd_danger-default {
+  @apply !bg-red-1 !text-red-6 hover:!text-red-7;
+}
+.button-2nd_danger-disable {
+  @apply !bg-red-1 !text-red-3;
+} 
+.button-2nd_danger-loading {
+  @apply !bg-red-1 !text-red-4;
+}
+
+ 
+.button-3rd-default {
+  @apply !bg-ic-ink-1 !text-ic-ink-5  hover:!text-ic-ink-6;
+}
+.button-3rd-disable {
+  @apply !bg-ic-ink-1 !text-ic-ink-3;
+}
+.button-3rd-loading {
+  @apply !bg-ic-ink-1 !text-ic-ink-4;
+}
+
+/* size button */
+.button-size-light {
+  @apply text-sm font-normal py-[6px] px-3 leading-5;
+} 
+.button-size-normal {
+  @apply text-base font-medium py-1 px-3  leading-6;
+}
+.button-size-medium {
+  @apply text-base font-medium py-2 px-3 leading-6;
+}
+.button-size-semibold {
+  @apply text-base font-medium p-3  leading-6;
+}
+.button-size-bold {
+  @apply text-base font-medium py-4 px-3 leading-6;
+}
+
+.loader {
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Loading */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}

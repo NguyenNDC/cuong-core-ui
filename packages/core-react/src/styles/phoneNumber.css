@@ -1,0 +1,47 @@
+.ctn-phone-number {
+  @apply relative w-full;
+}
+
+.phone-header-normal {
+  @apply flex items-center rounded-lg  px-4 py-2  bg-white border border-ic-ink-2 focus-within:border-primary-6  w-full;
+}
+
+.phone-header-error {
+  @apply flex items-center rounded-lg  px-4 py-2  bg-white border border-red-6 focus-within:border-red-6  w-full;
+}
+
+.phone-header-disable {
+  @apply flex items-center rounded-lg  px-4 py-2 bg-ic-ink-2 w-full;
+}
+
+.btn-search {
+  @apply flex items-center cursor-pointer;
+}
+
+.flag-body {
+  @apply h-[18px] w-[24px] shrink-0 ml-[2px];
+}
+
+.flag {
+  @apply inline-block rounded w-full h-full;
+}
+
+.text-prefix {
+  @apply text-ic-ink-6 text-base leading-6 font-normal ml-[2px];
+}
+
+.line-phone {
+  @apply bg-ic-ink-3 h-[20px] w-[1px] mr-2 ml-[2px];
+}
+.input-phone {
+  @apply w-full text-ic-ink-6 outline-none bg-transparent text-base font-normal leading-6  placeholder:text-ic-ink-4;
+}
+.phone-body {
+  @apply absolute bg-white rounded-lg p-1  w-full mt-1;
+}
+.list-phone {
+  @apply  h-full max-h-[208px] overflow-hidden overflow-y-auto;
+}
+.phone-items {
+  @apply h-10 px-3 flex items-center justify-between rounded-lg text-ic-ink-6 text-sm leading-5 font-normal w-full whitespace-normal hover:bg-ic-ink-1 cursor-pointer;
+}

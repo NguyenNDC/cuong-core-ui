@@ -1,0 +1,22 @@
+
+.form-textArea {
+  @apply outline-none rounded-lg py-3 px-[16px] resize-none w-full placeholder:text-ic-ink-4 placeholder:font-normal placeholder:text-base placeholder:leading-6;
+}
+
+.wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.wrap:after {
+  content:"";
+  border-top: 1px solid #999999;
+  width:16px;
+  transform: rotate(-45deg);
+  background:transparent;
+  position: absolute;
+  right: 4px;
+  bottom: 17px;
+  pointer-events: none;
+  border-radius:25%;
+}

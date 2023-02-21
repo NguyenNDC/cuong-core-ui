@@ -1,0 +1,3 @@
+.multi-select-check {
+  @apply w-[18px] h-[18px] border border-ic-ink-6 rounded mr-3;
+}

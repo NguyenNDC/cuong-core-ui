@@ -1,0 +1,35 @@
+.form-multi-tags {
+  @apply relative flex pl-1 pr-[20px] py-1 flex-wrap items-start content-start outline-none rounded-lg  resize-none w-full placeholder:text-ic-ink-4 placeholder:font-normal placeholder:text-base placeholder:leading-6;
+}
+
+.form-tags {
+  @apply inline-flex bg-ic-ink-6 rounded-md py-2 px-3 mx-[0.125rem] mb-[0.25rem] items-center overflow-hidden;
+}
+
+.form-tags-text {
+  @apply text-white font-normal text-base leading-6 truncate;
+}
+.form-tags-close {
+  @apply text-white ml-4 cursor-pointer;
+}
+.form-tags-input {
+  @apply flex-1 outline-none  border-none bg-transparent py-3 pl-3 min-w-[100px] w-full;
+}
+
+.wrap_1 {
+  position: relative;
+  
+}
+
+.wrap_1:after {
+  content:"";
+  border-top: 1px solid #999999;
+  width:16px;
+  transform: rotate(-45deg);
+  background:transparent;
+  position: absolute;
+  right: 4px;
+  bottom: 17px;
+  pointer-events: none;
+  border-radius:25%;
+}
